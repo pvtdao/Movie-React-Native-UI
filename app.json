@@ -3,7 +3,7 @@
     "name": "movie-frontend",
     "slug": "movie-frontend",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ea51d025-d3c2-4f8f-8376-c41f5c065818"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ea51d025-d3c2-4f8f-8376-c41f5c065818"
     }
   }
 }
